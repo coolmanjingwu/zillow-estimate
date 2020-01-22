@@ -21,18 +21,18 @@ Are there any models for us to predict optimal Tesla charging station locations,
 
 ### 4, Data Source
 
-1, https://www.tesla.com/findus#/
-2, https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita
-3, https://en.wikipedia.org/wiki/List_of_countries_by_vehicles_per_capita
-4, https://www.statista.com/statistics/278566/urban-and-rural-population-of-china/
-5, https://www.statista.com/statistics/263770/gross-domestic-product-gdp-of-china/
-6, https://www.statista.com/statistics/279013/population-in-china-by-region/
-7, https://www.statista.com/statistics/1027498/china-public-electric-vehicle-charging-station-number-by-company/
-8, https://www.statista.com/statistics/976376/china-electric-vehicles-sales-by-oem/
-9, https://www.statista.com/statistics/314759/revenue-of-tesla-by-region/
-10, https://www.statista.com/statistics/1071387/hong-kong-registration-of-private-vehicles-by-tesla-by-year-of-manufacture/
-11, https://www.statista.com/statistics/999166/china-number-of-imported-new-energy-cars-recalled-by-brand/
-12, https://www.statista.com/chart/16626/electric-vehicle-sales-in-the-us-and-china/
+1, https://www.tesla.com/findus#/<br/>
+2, https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita<br/>
+3, https://en.wikipedia.org/wiki/List_of_countries_by_vehicles_per_capita<br/>
+4, https://www.statista.com/statistics/278566/urban-and-rural-population-of-china/<br/>
+5, https://www.statista.com/statistics/263770/gross-domestic-product-gdp-of-china/<br/>
+6, https://www.statista.com/statistics/279013/population-in-china-by-region/<br/>
+7, https://www.statista.com/statistics/1027498/china-public-electric-vehicle-charging-station-number-by-company/<br/>
+8, https://www.statista.com/statistics/976376/china-electric-vehicles-sales-by-oem/<br/>
+9, https://www.statista.com/statistics/314759/revenue-of-tesla-by-region/<br/>
+10, https://www.statista.com/statistics/1071387/hong-kong-registration-of-private-vehicles-by-tesla-by-year-of-manufacture/<br/>
+11, https://www.statista.com/statistics/999166/china-number-of-imported-new-energy-cars-recalled-by-brand/<br/>
+12, https://www.statista.com/chart/16626/electric-vehicle-sales-in-the-us-and-china/<br/>
 
 ### 5, Business Impact of Work:
 
