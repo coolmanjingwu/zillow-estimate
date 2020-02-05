@@ -34,6 +34,8 @@ Zillow's kaggle dataset
 ### 6, How business will use (predicted) model to make decisions:
 
 1, Help Zillow estimate home values effectively and efficiently.
+
 2, The resulting model will let Zillow know who and where are the potential buyers or sellers, also will improve its advertising stats.
+
 3, Similar model can be applied to study other global markets and help Zillow grow more.
 
