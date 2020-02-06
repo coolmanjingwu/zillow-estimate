@@ -1,0 +1,7 @@
+# pack-refs with: peeled fully-peeled sorted 
+3a30538db2a8ade39e0767a257d558da8f544bae refs/heads/feature/EC1
+143942508c0a94df6ab163b74ad1cff06a108060 refs/heads/feature/HW1
+adabb1365f238aca79a3915fb1dc7bbda2e8deeb refs/heads/feature/HW2
+4cda2e856371d1c557060d977c696ff0deaef39e refs/heads/feature/LAB1
+c386aef0695a60e97d1da35bd98a3423188fe0c2 refs/heads/feature/git-hello-world
+6a4a708830bf39f4ccf93b96b9ae4c0a0adf29f2 refs/heads/master
