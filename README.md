@@ -10,6 +10,11 @@ The shared components bewteen training and scoring are feature engineering and d
 
 ![architecture Diagram scoring](https://user-images.githubusercontent.com/56213599/76169599-04368980-6137-11ea-9210-bc188d53b117.png)
 
+## Input and output specs:
+Inputs: 'bathroomcnt', 'bedroomcnt', 'taxamount', 'yearbuilt', 'calculatedfinishedsquarefeet', 'transaction_yearmonth_i'
+Output: 'log_error'
+
+
 ### 1, Statement of problem:
 
 In US, millions of people use Zillow to estimate home valuation. It is essential for Zillow to provide consumers with useful and accurate information about homes and the housing market.
