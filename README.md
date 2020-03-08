@@ -10,22 +10,22 @@ The shared components bewteen training and scoring are feature engineering and d
 
 ![architecture Diagram scoring](https://user-images.githubusercontent.com/56213599/76169599-04368980-6137-11ea-9210-bc188d53b117.png)
 
-## Input and output specs:
-Input: 
-numpy array containing:
-'bathroomcnt': Number of bathroom.
-'bedroomcnt': Number of bedroom.
-'taxamount': The total property tax assessed for that assessment year.
-'yearbuilt': The Year the principal residence was built.
-'calculatedfinishedsquarefeet': Calculated total finished living area of the home.
-'transaction_yearmonth_i': The specific year and month the residence was traded.
+## Input and output specs:<br />
+Input: <br />
+numpy array containing: <br />
+'bathroomcnt': Number of bathroom. <br />
+'bedroomcnt': Number of bedroom. <br />
+'taxamount': The total property tax assessed for that assessment year. <br />
+'yearbuilt': The Year the principal residence was built. <br />
+'calculatedfinishedsquarefeet': Calculated total finished living area of the home. <br />
+'transaction_yearmonth_i': The specific year and month the residence was traded.  <br />
 
-Output: 
-'log_error': log error is defined as logerror=log(Zestimate)−log(SalePrice)
+Output: <br />
+'log_error': log error is defined as logerror=log(Zestimate)−log(SalePrice)  <br />
 
-EX: 
-Input: np.array([[4,4,5888,1999,2000,201002]])
-Output: array([0.009104])
+EX: <br />
+Input: np.array([[4,4,5888,1999,2000,201002]]) <br />
+Output: array([0.009104])  <br />
 
 
 
