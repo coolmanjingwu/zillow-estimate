@@ -11,8 +11,22 @@ The shared components bewteen training and scoring are feature engineering and d
 ![architecture Diagram scoring](https://user-images.githubusercontent.com/56213599/76169599-04368980-6137-11ea-9210-bc188d53b117.png)
 
 ## Input and output specs:
-Inputs: 'bathroomcnt', 'bedroomcnt', 'taxamount', 'yearbuilt', 'calculatedfinishedsquarefeet', 'transaction_yearmonth_i'
-Output: 'log_error'
+Input: 
+numpy array containing:
+'bathroomcnt': Number of bathroom.
+'bedroomcnt': Number of bedroom.
+'taxamount': The total property tax assessed for that assessment year.
+'yearbuilt': The Year the principal residence was built.
+'calculatedfinishedsquarefeet': Calculated total finished living area of the home.
+'transaction_yearmonth_i': The specific year and month the residence was traded.
+
+Output: 
+'log_error': log error is defined as logerror=log(Zestimate)−log(SalePrice)
+
+EX: 
+Input: np.array([[4,4,5888,1999,2000,201002]])
+Output: array([0.009104])
+
 
 
 ### 1, Statement of problem:
