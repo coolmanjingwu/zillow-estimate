@@ -2,7 +2,13 @@
 
 ## Name: Jingwu Fang
 
+### 0, Architecture Diagrams:
 
+The shared components bewteen training and scoring are feature engineering and data processing.
+
+![architecture Diagram Training](https://user-images.githubusercontent.com/56213599/76169583-e406ca80-6136-11ea-99b0-ba9486c31a31.png)
+
+![architecture Diagram scoring](https://user-images.githubusercontent.com/56213599/76169599-04368980-6137-11ea-9210-bc188d53b117.png)
 
 ### 1, Statement of problem:
 
