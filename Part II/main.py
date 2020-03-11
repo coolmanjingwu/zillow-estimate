@@ -1,5 +1,5 @@
 """
-Purpose: The following model will make prediction on log_error base on the user inputs.
+Purpose: The following model will make prediction on log_error base on user inputs.
 Author: Jingwu Fang
 Date: 03/09/2020
 Contact Email: jingwufang94@outlook.com
@@ -19,16 +19,20 @@ logging.basicConfig(level=logging.INFO)
 LOGGER = logging.getLogger(__name__)
 
 def user_inputs():
-    """this function will take user inputs for later calculation""" 
+    """this function will take user inputs for later calculation"""
     LOGGER.info("---Taking user inputs...")
-    bathroomcnt=input("Please enter the number of bathrooms: ")
-    bedroomcnt=input("Please enter the number of bedrooms: ")
-    taxamount=input("Please enter the taxamount of the house: ")
-    yearbuilt=input("Please enter the year the house is built as 'yyyy': ")
-    calculatedfinishedsquarefeet=input("Please enter the calculatedfinishedsquarefeet: ")
-    transaction_yearmonth_i=input("Please enter the transaction_yearmonth as 'yyyymm': ")
+    bathroomcnt = input("Please enter the number of bathrooms: ")
+    bedroomcnt = input("Please enter the number of bedrooms: ")
+    taxamount = input("Please enter the taxamount of the house: ")
+    yearbuilt = input("Please enter the year the house is built as 'yyyy': ")
+    calculatedfinishedsquarefeet = \
+        input("Please enter the calculatedfinishedsquarefeet: ")
+    transaction_yearmonth_i = \
+        input("Please enter the transaction_yearmonth as 'yyyymm': ")
     # creating lists based on user input
-    user_inputs = np.array([[bathroomcnt, bedroomcnt, taxamount, yearbuilt, calculatedfinishedsquarefeet, transaction_yearmonth_i]])
+    user_inputs = np.array(
+        [[bathroomcnt, bedroomcnt, taxamount, yearbuilt,
+          calculatedfinishedsquarefeet, transaction_yearmonth_i]])
     return user_inputs.astype(np.float64)
 
 def initialize_model():
