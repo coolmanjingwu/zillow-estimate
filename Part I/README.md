@@ -1,5 +1,7 @@
 ### 0, Architecture Diagrams:
 
+NOTE: The main.py normally takes about 150 seconds to run. Thank you for your patience.
+
 The shared components bewteen training and scoring are feature engineering and data processing.
 
 ![architecture Diagram Training](https://user-images.githubusercontent.com/56213599/76169583-e406ca80-6136-11ea-99b0-ba9486c31a31.png)
@@ -21,4 +23,4 @@ Output: <br />
 
 EX: <br />
 Input: np.array([[4,4,5888,1999,2000,201002]]) <br />
-Output: array([0.009104])  <br />
+Output: array([0.0166721])  <br />
