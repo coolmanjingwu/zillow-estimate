@@ -25,17 +25,17 @@ Output: <br />
 
 EX: <br />
 Input: np.array([[4,4,5888,1999,2000,201002]]) <br />
-Output: array([0.009104])  <br />
+Output: array([0.0166721])  <br />
 
 
 
 ### 1, Statement of problem:
 
-In US, millions of people use Zillow to estimate home valuation. It is essential for Zillow to provide consumers with useful and accurate information about homes and the housing market.
+Say for example, if you want to buy yourself a place, you look up Zillow, you will see this Zestimate price on the websit, which indicates an estimated price for the potential buyers/sellers' reference.
 
-Also, starting 2019, Zillow had started buying and selling homes as an agency. Thus, it is more and more important for them to know the value of their own purchases and the profit these properties will generate in the market.
+However, the actual sale price can't be the same with Zestimate, there is always a difference between the estimated price and the execution price. And my job here is to build a model to predict the difference between estimated price and this execution price by using a concept called log-error.
 
-However, each property has hundreds of data points and varys significantly from each other. It is quite difficult to improve the margin of error. 
+Also, starting June 2018, Zillow had started buying and selling homes with an average price of 250000 dollars as an agency. Thus, it is more and more important for them to know the value of their own purchases and the profit these properties will generate in the market.
 
 ### 2, Client:
 
@@ -43,7 +43,7 @@ Zillow Group, Inc.
 
 ### 3, Key Business Question
 
-Are there any models for us to improve the Zillow's home valuation estimation?
+Are there any models for us to improve the accurancy of Zillow's home valuation estimation?
 
 ### 4, Data Source
 
@@ -60,13 +60,9 @@ Zillow's kaggle dataset
 
 ### 6, How business will use (predicted) model to make decisions:
 
-1, Help Zillow estimate home values effectively and efficiently.
+1, Help Zillow estimate home values effectively and efficiently by just adding the new predictions on top of the existing ones, resulting in prediction improvement.
 
-2, The resulting model will let Zillow know who and where are the potential buyers or sellers, also will improve its advertising stats.
+2, Similar model can be applied to study other global markets and help Zillow grow more.
 
-3, Similar model can be applied to study other global markets and help Zillow grow more.
-
-4, Our model will also help them make better purchase and selling decisions for their own Zillow properties.
-
-
+3, Our model will also help them make better purchase and selling decisions for their own Zillow properties.
 
