@@ -1,3 +1,5 @@
+I wrote a different main.py for the test suites, this one will load the model from s3, which will save a lot of time. <br /> 
+
 Unit test 1: Set limit on built year. <br /> 
 
   Since our data was from 2016, which means any house that is built after 2016 won't be taken into consideration.<br /> 
