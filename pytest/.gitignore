@@ -1,0 +1,5 @@
+
+*.pyc
+year_adjustment/htmlcov
+.coverage
+htmlcov
