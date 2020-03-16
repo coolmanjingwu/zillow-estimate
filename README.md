@@ -1,6 +1,9 @@
+### Please note that main.py will take about 170 seconds to run. Thank you for your patience.
+
 python version: 3.7.6 <br />
 
 ## Input and output specs:<br />
+
 Input: <br />
 numpy array containing: <br />
 'bathroomcnt': Number of bathroom. <br />
