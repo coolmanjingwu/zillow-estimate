@@ -1,6 +1,6 @@
 ### 0, Architecture Diagrams:
 
-NOTE: The main.py normally takes about 150 seconds to run. Thank you for your patience.
+NOTE: The main.py normally takes about 7mins to train and run. Thank you for your patience.
 
 The shared components bewteen training and scoring are feature engineering and data processing.
 
