@@ -35,7 +35,7 @@ def test_built_year_throws_error_beyond_limit():
         
 def test_transaction_yearmonth_throws_error_beyond_limit():
     """Unit test to showcase edge case behavior of throwing an error when
-       the transaction year month is beyond year 201612.
+       the transaction year month is beyond year 2016.
     """
     with pytest.raises(ValueError):
         yearmonth_transaction(202001)
