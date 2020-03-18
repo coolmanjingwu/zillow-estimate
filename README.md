@@ -1,4 +1,3 @@
-### Please note that main.py will take about 170 seconds to run. Thank you for your patience.
 
 python version: 3.7.6 <br />
 
