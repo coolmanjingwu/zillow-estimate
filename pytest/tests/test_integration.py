@@ -1,7 +1,6 @@
 """Module for integration testing of 'adjust_price' functions.
 """
 import math
-import pandas as pd
 import numpy as np
 
 
