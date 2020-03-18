@@ -1,4 +1,4 @@
-### I wrote a different main.py for the test suites, this one will load the trained model from s3 directly, which will save a lot of time. <br /> 
+
 
 Unit test 1: Set limit on built year. <br /> 
 
@@ -16,4 +16,4 @@ Unit test 4: <br />
 
 Integration test:<br /> 
 
-  Make a prediction on the log_error(i.e. model output) using unit test1 and unit test2 along with other user inputs.
+  First test the year-related inputs are valid, then test the entire user_inputs array has no nan values.
