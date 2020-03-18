@@ -1,6 +1,7 @@
 """Module containing helper function(s) to test if user inputs(year) make sense.
 """
 import math
+import numpy as np
 
 def built_year(yearbuilt):
     """Function to set a limit on built_year."""
@@ -18,3 +19,10 @@ def yearmonth_transaction(transaction_yearmonth_i):
     else:
         return transaction_yearmonth_i
 
+def inputs_not_nan(user_inputs):
+	"""Function to check if any input is nan."""
+	inputsum = np.sum(user_inputs)
+	if inputsum == True:
+		raise ValueError("Error: inputs contain nan")
+	else:
+		return user_inputs
