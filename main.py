@@ -15,6 +15,7 @@ import joblib
 
 def initialize_model():
     """this function will load and initialize the model"""
+    #attribute to a tutorial on youtube, can't find the link.
     s3 = boto3.client('s3',
                       aws_access_key_id="AKIAJ7WVXAIXRCQKY4DA",
                       aws_secret_access_key="E9upXw25HkXoxmmrhniY1Cqr"
